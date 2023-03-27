@@ -1,0 +1,14 @@
+x2nd_lvl,Acesulfame,Caffeine,Diclofenac,Emtricitabine,Gabapentin,Paracetamol,Saccharin,Sulfamethoxazole,Tramadol,Trimethoprim
+1.1,envipath,envipath,consensus,envipath,envipath,consensus,consensus,consensus,consensus,envipath
+1.2,0,0,envipath,0,0,envipath,0,0,0,0
+1.3,envipath,0,envipath,0,0,envipath,envipath,envipath,0,0
+1.4,0,envipath,0,envipath,consensus,0,0,0,envipath,0
+1.5,0,envipath,0,envipath,envipath,0,0,0,envipath,0
+1.7,0,drugbug,0,0,0,0,0,0,0,0
+2.4,0,0,0,drugbug,0,0,0,0,0,0
+2.1,0,0,0,0,0,0,0,0,envipath,consensus
+2.6,0,envipath,0,envipath,envipath,0,0,0,envipath,0
+3.1,consensus,0,0,0,0,envipath,envipath,envipath,0,0
+3.3,0,envipath,0,envipath,envipath,0,0,0,envipath,envipath
+3.4,0,0,0,0,0,envipath,0,0,0,0
+3.5,0,0,0,0,0,envipath,0,0,0,0
