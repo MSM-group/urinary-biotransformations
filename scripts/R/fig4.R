@@ -40,7 +40,8 @@ dat_in <- tibble(file = list.files(dir)) %>%
   tidyr::unnest(blast)
 #Retain blast hits with a bitscore >50
 dat <- dat_in %>%
-  filter(bitscore > 50)
+  filter(bitscore > 50) %>%
+  dplyr::mutate(qseqid = stringr::str_replace(qseqid, pattern = "1.1_NADP-dependent_oxidoreductase", "1.3_NADP-dependent_oxidoreductase")) #Correct EC class to match uniprot annotation
 #Process blast data and metadata for plotting
 presence_absence <- dat %>%
   dplyr::group_by(accession, qseqid) %>%
